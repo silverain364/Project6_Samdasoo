@@ -1,0 +1,147 @@
+@media screen and (min-width:999px) {
+    nav {
+        display: block;
+    }
+
+    header .rel {
+        padding: 5rem 2rem 0;
+    }
+
+    header h1 a {
+        width: 21.3rem;
+    }
+
+    .menu-open {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .sc0 .text, .sc0 .main-text{
+        margin-top: 12rem;
+    }
+
+    section dt {
+        font-size: 3rem;
+    }
+
+    section dd {
+        font-size: 1.8rem;
+    }
+
+    /* act */
+    .act-1 nav ul li,
+    .act-2 nav ul li {
+        border-color: #fff;
+    }
+
+    .act-1 nav ul li.active,
+    .act-2 nav ul li.active {
+        background-color: #fff;
+    }
+
+    .fixed-samdasoo {
+        height: auto;
+    }
+
+    /* modal-nav */
+    .modal-nav {
+        right: -110%;
+        display: block;
+        opacity: 0;
+        transition: all .3s ease-in-out;
+        visibility: hidden;
+        padding: 20rem 0 0 15vw;
+    }
+
+    .modalNav-Open .modal-nav {
+        right: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .more-btn {
+        width: 16.6rem;
+        line-height: 5.3rem;
+        font-size: 1.7rem;
+    }
+
+    .main-text img {
+        width: 100%;
+    }
+
+    .sc3 {
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    .sc3 dt {
+        font-size: 3.7rem;
+        line-height: 1.4;
+    }
+
+    .sc3 dd {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .fixed-samdasoo {
+        height: auto;
+        transform: translate(-50%, 70%);
+    }
+
+    .sc3 .more-wrap h3 {
+        font-size: 3.3rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .sc3 .more-wrap p {
+        font-size: 1.8rem;
+    }
+
+    .sns-wrap a{
+        font-size: 1.8rem;
+    }
+
+    footer,
+    .sc3 {
+        padding: 5rem 19rem;
+    }
+
+    footer .link-wrap .l-wrap {
+        font-size: 1.8rem;
+    }
+
+    .mbr {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:1560px) {
+    .sc3 {
+        gap: 8rem;
+    }
+
+    .sc3 .in-wrap {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sc3 .sns {
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0;
+        width: auto;
+    }
+    .sc3-slider-wrap{
+        width: 90rem;
+    }
+
+}
+
+@media screen and (min-width:1660px) {
+    .sc3 .in-wrap {
+        justify-content: s;
+    }
+}
