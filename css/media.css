@@ -16,7 +16,8 @@
         height: 3rem;
     }
 
-    .sc0 .text, .sc0 .main-text{
+    .sc0 .text,
+    .sc0 .main-text {
         margin-top: 12rem;
     }
 
@@ -99,7 +100,7 @@
         font-size: 1.8rem;
     }
 
-    .sns-wrap a{
+    .sns-wrap a {
         font-size: 1.8rem;
     }
 
@@ -134,8 +135,13 @@
         margin-bottom: 0;
         width: auto;
     }
-    .sc3-slider-wrap{
+
+    .sc3-slider-wrap {
         width: 90rem;
+    }
+
+    .sns-wrap {
+        width: 100%;
     }
 
 }
